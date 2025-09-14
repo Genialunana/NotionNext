@@ -11,7 +11,7 @@ module.exports = {
   IMAGE_COMPRESS_QUALITY: process.env.NEXT_PUBLIC_IMAGE_COMPRESS_QUALITY || 80,
 
   // ✅ 替换掉 Unsplash 的默认图
-  RANDOM_IMAGE_URL: process.env.NEXT_PUBLIC_RANDOM_IMAGE_URL || 'https://cdn.pixabay.com/photo/2025/08/29/02/23/landscape-9802950_1280.jpg',
+  RANDOM_IMAGE_URL: process.env.NEXT_PUBLIC_RANDOM_IMAGE_URL || 'https://i2.hdslb.com/bfs/article/feea8d99f07420851b068e41a77910d6245837164.png@1192w.avif',
   RANDOM_IMAGE_REPLACE_TEXT: process.env.NEXT_PUBLIC_RANDOM_IMAGE_NOT_REPLACE_TEXT || 'images.unsplash.com',
 
   // 网站图片

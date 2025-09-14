@@ -11,7 +11,7 @@ module.exports = {
   IMAGE_COMPRESS_QUALITY: process.env.NEXT_PUBLIC_IMAGE_COMPRESS_QUALITY || 80,
 
   // ✅ 替换掉 Unsplash 的默认图
-  RANDOM_IMAGE_URL: process.env.NEXT_PUBLIC_RANDOM_IMAGE_URL || 'https://img2.tapimg.com/moment/etag/19a1cf2fd4bbcf0ab09de85ce57afa44.png?imageMogr2/thumbnail/1080x9999%3E/quality/80/format/jpg/interlace/1/meta-keep-list/VXNlckNvbW1lbnQ%3D/ignore-error/1&t=1',
+  RANDOM_IMAGE_URL: process.env.NEXT_PUBLIC_RANDOM_IMAGE_URL || 'https://img2.tapimg.com/moment/etag/19a1cf2fd4bbcf0ab09de85ce57afa44.png',
   RANDOM_IMAGE_REPLACE_TEXT: process.env.NEXT_PUBLIC_RANDOM_IMAGE_NOT_REPLACE_TEXT || 'images.unsplash.com',
 
   // 网站图片

@@ -11,7 +11,7 @@ module.exports = {
   IMAGE_COMPRESS_QUALITY: process.env.NEXT_PUBLIC_IMAGE_COMPRESS_QUALITY || 80,
 
   // ✅ 替换掉 Unsplash 的默认图
-  RANDOM_IMAGE_URL: process.env.NEXT_PUBLIC_RANDOM_IMAGE_URL || 'https://www.notion.so/picture-26e1ae78e78f8053bf91d9116555aa8b?source=copy_link#26e1ae78e78f80b8b118de652cb20591',
+  RANDOM_IMAGE_URL: process.env.NEXT_PUBLIC_RANDOM_IMAGE_URL || 'https://www.notion.so/image/attachment%3A969ebb70-558a-4715-ae43-a445f094c72c%3A%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250914213954.png?table=block&id=26e1ae78-e78f-80b8-b118-de652cb20591&spaceId=0bcd4b4c-a149-4887-8949-f52af8b9cda7&width=2000&userId=fa98683a-e081-4060-bba1-23dbe487b80c&cache=v2',
   RANDOM_IMAGE_REPLACE_TEXT: process.env.NEXT_PUBLIC_RANDOM_IMAGE_NOT_REPLACE_TEXT || 'images.unsplash.com',
 
   // 网站图片
